@@ -18,10 +18,10 @@ st.title("Digit Drawing ")
 st.write("Draw a digit:")
 
 canvas_result = st_canvas(
-    fill_color="rgba(255, 255, 255, 1)",  # Stroke fill (inside shapes)
-    stroke_width=10,                      # Thickness of your pen
-    stroke_color="white",                 # What you're drawing with
-    background_color="black",            # The canvas background (invisible space = 0)
+    fill_color="rgba(255, 255, 255, 1)", 
+    stroke_width=10,                      
+    stroke_color="white",               
+    background_color="black",           
     height=280,
     width=280,
     drawing_mode="freedraw",
